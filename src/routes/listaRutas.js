@@ -3,8 +3,7 @@ const ruta = express.Router();
 
 // Ruta para la página principal
 ruta.get("/", (req, res) => {
-    res.render("inicio");
+  res.render("Home/home");
 });
-
 
 module.exports = ruta;
